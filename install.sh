@@ -183,8 +183,8 @@ pre_install_caddy(){
 
     # Set caddy v2ray path
     echo "CADDY反代到V2RAY的虚拟目录"
-    read -p "(务必于前端节点信息的Path值相同,回车默认: /download):" v2ray_path
-    [ -z "${v2ray_path}" ] && v2ray_path="/download"
+    read -p "(务必于前端节点信息的Path值相同,回车默认: /v2ray):" v2ray_path
+    [ -z "${v2ray_path}" ] && v2ray_path="/v2ray"
     echo
     echo "---------------------------"
     echo "伪装目录 = ${v2ray_path}"
@@ -505,3 +505,4 @@ case "${selected}" in
     echo -e "[${red}Error${plain}] 你妈逼啊,请输入正确数字 [1-4]"
     ;;
 esac
+done
