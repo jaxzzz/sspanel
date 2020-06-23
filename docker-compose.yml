@@ -8,7 +8,7 @@ services:
     extra_hosts:
       auth.rico93.com: 127.0.0.1
     environment:
-      sspanel_url: "https://jiasudog.club"
+      sspanel_url: "https://xxxx.com"
       key: "11f45fz14ss191g9810zz"
       docker: "true"
       speedtest: 6
@@ -25,7 +25,7 @@ services:
       PANELTYPE: 0
       usemysql: 0
       CF_Key: "3a7eebf0ad9bb551c19fc5032f217eeb0b13f"
-      CF_Email: "1017856715@qq.com"
+      CF_Email: "zzzzz.com"
     volumes:
       - /etc/localtime:/etc/localtime:ro
     logging:
